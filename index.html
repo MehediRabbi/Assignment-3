@@ -33,7 +33,7 @@
               primary: "rgb(171, 239, 95)",
               secondary: "rgba(171, 239, 95, 0.5)",
               tprimary: "rgb(33, 33, 33)",
-              txtsecondary: "rgb(73, 73, 73)",
+              tsecondary: "rgb(73, 73, 73)",
               txtnav: "rgb(115, 115, 115)",
             },
             fontFamily: {
@@ -128,6 +128,132 @@
         </button>
       </div>
     </header>
+
+    <main class="bg-slate-100">
+      <!-- About section Start -->
+
+      <div
+        class="lg:w-10/12 lg:mx-auto grid grid-cols-1 lg:grid-cols-2 lg:p-10 gap-5 relative mb-24"
+      >
+        <div class="hidden lg:absolute lg:top-3 lg:left-2 lg:block">
+          <img src="./images/Vector.png" alt="" />
+        </div>
+
+        <div class="p-5 space-y-5 text-center lg:text-left">
+          <button class="btn bg-white rounded-3xl px-5 font-bold">
+            <i class="fa-solid fa-arrow-right px-2 bg-white text-black"></i>
+            About Us
+          </button>
+          <h3 class="text-tprimary text-4xl font-extrabold">
+            We design thoughtful, <br />
+            liveable spaces
+          </h3>
+          <p class="text-tsecondary text-xl font-semibold">
+            Harnessing the talents of our architectural services, construction,
+            and interior design teams from the start, design/build services
+            ensure a streamlined and rewarding project.
+          </p>
+
+          <div
+            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-5 text-left"
+          >
+            <div class="bg-white rounded-xl flex gap-4 p-5">
+              <img
+                class="w-12 h-12 lg:w-16 lg:h-16 lg:my-auto"
+                src="./images/commercial.png"
+                alt=""
+              />
+              <div class="space-y-4">
+                <h5 class="text-tprimary font-bold">Commercial</h5>
+                <p class="text-txtnav font-semibold pb-2">
+                  Our craftsmen are construction experts with a proven track
+                  record.
+                </p>
+              </div>
+            </div>
+            <div class="bg-white rounded-xl flex gap-4 p-5">
+              <img
+                class="w-12 h-12 lg:w-16 lg:h-16 lg:my-auto"
+                src="./images/residential.png"
+                alt=""
+              />
+              <div class="space-y-4">
+                <h5 class="text-tprimary font-bold">Residential</h5>
+                <p class="text-txtnav font-semibold pb-2">
+                  Our interior design studio and team take the guesswork out of
+                  crafting elegant.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- about us image -->
+
+        <div class="w-full px-2 flex justify-center">
+          <img
+            src="./images/Rectangle.png"
+            alt="House"
+            class="md:w-full md:h-[385px] lg:h-full md:object-cover rounded-lg"
+          />
+        </div>
+      </div>
+
+      <div class="w-10/12 mx-auto text-center space-y-5 pb-24">
+        <button class="btn bg-white rounded-3xl px-5 font-bold">
+          <i class="fa-solid fa-arrow-right px-2 bg-white text-black"></i>
+          How We Works
+        </button>
+        <h3 class="text-tprimary text-4xl font-extrabold">Our Works Process</h3>
+        <p class="w-8/12 mx-auto text-tsecondary text-xl font-semibold">
+          The barn house captivates with its blend of rustic charm and modern
+          sophistication, featuring weathered wood, sleek metal accents.
+        </p>
+        <!-- Work Process Card  -->
+        <div
+          class="lg:w-10/12 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 text-left pt-10"
+        >
+          <div class="px-8 py-5 bg-[rgb(231,193,211)] rounded-lg">
+            <img src="./images/concept.png" alt="" class="text-3xl mb-5" />
+            <h3 class="text-tprimary text-xl font-extrabold">Concept</h3>
+            <p class="text-tsecondary">
+              We have built strong relationships through the caliber of our
+              work.
+            </p>
+          </div>
+          <div class="px-8 py-5 bg-[rgb(239,218,110)] rounded-lg">
+            <img src="./images/flow-chart.png" alt="" class="text-3xl mb-5" />
+            <h3 class="text-tprimary text-xl font-extrabold">Design Process</h3>
+            <p class="text-tsecondary">
+              we have a dedicated inhouse engineer to help our clients overcome
+              the complexities.
+            </p>
+          </div>
+          <div class="px-8 py-5 bg-[rgb(164,218,195)] rounded-lg">
+            <img src="./images/vision.png" alt="" class="text-3xl mb-5" />
+            <h3 class="text-tprimary text-xl font-extrabold">Supervisor</h3>
+            <p class="text-tsecondary">
+              Our clients appreciate the quality control, efficiency, and
+              customization.
+            </p>
+          </div>
+          <div class="px-8 py-5 bg-[rgb(119,170,234)] rounded-lg">
+            <img
+              src="./images/budget-planning.png"
+              alt=""
+              class="text-3xl mb-5"
+            />
+            <h3 class="text-tprimary text-xl font-extrabold">
+              Budget Planning
+            </h3>
+            <p class="text-tsecondary">
+              we provide insight including constructability real-time market
+              costs.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
 
     <footer></footer>
   </body>
